@@ -74,8 +74,48 @@ html {
     border-radius: 20px;
 }
 
-
-
+.welcome-text {
+    margin-top: 5rem;
+    text-align: center;
+  }
+  
+  .welcome-text h1 {
+    font-size: 2.5rem;
+    color: #1f2937; /* Dark gray */
+    font-weight: 800;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+  }
+  
+  .product-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-button button {
+    background-color: #10b981; /* Emerald green */
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .product-button button:hover {
+    background-color: #059669;
+    transform: translateY(-2px);
+  }
+  
+  .product-button a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+  }
+  
 
 
 
