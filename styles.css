@@ -74,14 +74,18 @@ html {
     border-radius: 20px;
 }
 
-.welcome-text {
-    margin-top: 5rem;
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     text-align: center;
   }
   
   .welcome-text h1 {
     font-size: 2.5rem;
-    color: #1f2937; /* Dark gray */
+    color: #1f2937;
     font-weight: 800;
     margin-bottom: 2rem;
     letter-spacing: 1px;
@@ -93,7 +97,7 @@ html {
   }
   
   .product-button button {
-    background-color: #10b981; /* Emerald green */
+    background-color: #10b981;
     color: white;
     font-size: 1.1rem;
     font-weight: 600;
@@ -116,9 +120,3 @@ html {
     display: block;
   }
   
-
-
-
-
-
-
